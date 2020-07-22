@@ -17,6 +17,6 @@ git commit -m 'chore: deploy docs'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/wangshengfei/space.git master:gh-pages
+git push -f https://github.com/wangshengfei/space.git master
 
 cd -
