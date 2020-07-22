@@ -9,6 +9,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   local_dir: docs/.vuepress/dist
-  github_token: accessToken
+  github_token: gh-token
   on:
     branch: master
