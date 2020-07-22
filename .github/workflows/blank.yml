@@ -27,7 +27,9 @@ jobs:
       run: git config --global user.name wangshengfei
     - name: pwd
       run: git config --global user.email 443611041@qq.com
-    
+    - name: wincred
+      run: git config --global credential.helper wincred
+      
     - name: deploy
       run: npm install && npm run deploy
 
