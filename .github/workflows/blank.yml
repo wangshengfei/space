@@ -24,9 +24,9 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: name
-      run: git config --global user.name "wangshengfei"
+      run: git config --global user.name wangshengfei
     - name: pwd
-      run: git config --global user.email "443611041@qq.com"
+      run: git config --global user.email 443611041@qq.com
     
     - name: deploy
       run: npm install && npm run deploy
