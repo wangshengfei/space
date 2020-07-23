@@ -1,10 +1,12 @@
-# hey guys !
-
-There are a lot of oranges here ！
-
-[Home](/home/)
-
-[生活](/life/)
-
-
-
+---
+home: true
+heroImage: images/road.jpg
+actionText: go →
+actionLink: /reading/
+features:
+- title: more
+  details: more...
+- title: less
+  details: less...
+footer: MIT Licensed | Copyright © 2020 @wangshengfei
+---
